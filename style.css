@@ -115,7 +115,8 @@ button{
 }
 
 #about-us img{
-    margin-right: 50px;
+    max-width: 100% !important;
+    width: 100%;
 }
 
 #about-us img{
