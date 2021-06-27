@@ -121,6 +121,13 @@ button{
 #about-us img{
     max-width: 100% !important;
     width: 100%;
+    height: auto;
+}
+
+#about-us .img-col{
+    justify-content: flex-start;
+    width: 500px;
+    height: auto;
 }
 
 #contact {
