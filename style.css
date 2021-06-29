@@ -19,7 +19,7 @@ body{
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
-    color: #683aa4 !important;
+    color: blue !important;
 
 }
 
@@ -53,7 +53,7 @@ section{
 section h1{
     text-transform: uppercase;
     font-weight: 900;
-    color: #682aa4;
+    color: blue;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -126,7 +126,7 @@ button{
 
 #contact {
     text-align: center;
-    background-color: #683aa4;
+    background-color: blue;
     color: white;
   }
   #contact h1 {
