@@ -110,15 +110,12 @@ button{
     width: 100%;
 }
 
-#about-us img{
-    max-width: 100% !important;
-    width: 100%;
-}
 
 #about-us img{
     max-width: 100% !important;
     width: 100%;
     height: auto;
+    padding: 50px;
 }
 
 #about-us .img-col{
