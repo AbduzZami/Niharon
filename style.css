@@ -83,8 +83,8 @@ button{
 }
 
 #hero img{
-    max-width: 130% !important;
-    width: 130%;
+    max-width: 100% !important;
+    width: 100%;
 }
 
 #hero h1{
