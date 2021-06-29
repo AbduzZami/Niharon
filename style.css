@@ -83,8 +83,12 @@ button{
 }
 
 #hero img{
-    max-width: 100% !important;
-    width: 100%;
+    max-width: 130% !important;
+    width: 130%;
+}
+
+#hero h1{
+    margin-top: 100px;
 }
 
 #hero .card{
