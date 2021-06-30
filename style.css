@@ -45,6 +45,10 @@ nav ul li a{
     color: #ffffff ;
 } */
 
+#lmbutt{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
 
 section{
     padding-top: 50px;
@@ -64,10 +68,6 @@ section p{
     font-weight: 300;
 }
 
-button{
-    max-width: 50%;
-    border-radius: 50px !important;
-}
 
 #hero .col{
     justify-content: center;
