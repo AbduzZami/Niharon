@@ -45,9 +45,10 @@ nav ul li a{
     color: #ffffff ;
 } */
 
+
 section{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;;
 }
 
 section h1{
@@ -75,6 +76,8 @@ button{
 
 }
 
+
+
 #hero .img-col{
     justify-content: flex-end;
     margin-top: 100px;
@@ -87,9 +90,6 @@ button{
     width: 100%;
 }
 
-#hero h1{
-    margin-top: 100px;
-}
 
 #hero .card{
     box-shadow: 11px 7px 16px #f9f9f9;
@@ -106,6 +106,15 @@ button{
 
 #projects .projects{
     margin-bottom: 50px;
+}
+
+#projects{
+    margin-top: 150px;
+}
+
+#about-us{
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 
