@@ -79,10 +79,10 @@
           <a name="About"></a><section id="about-us"">
               <div class="container">
                 <div class="row align-items-center">
-                  <div class="col-sm-12 col-md-12 col-lg-6 img-col">
+                  <div class="col-sm-12 col-md-12 col-lg-7 img-col">
                     <img src="./assets/about.jpg" class="img-fluid" alt="About Us">
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6 text-col">
+                  <div class="col-sm-12 col-md-12 col-lg-5 text-col">
                     <h1>About Us</h1>
                     <p>Niharon is a software company whose goal is to simplify people's
                       life by developing useful softwares. It's target is to build more
@@ -127,9 +127,9 @@
                       <div class="card mb-3">
                           <img src="./Assets/classmanager.jpg" class="card-img-top" alt="Project One">
                           <div class="card-body">
-                            <h5 class="card-title">Class Manager</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Java-Xml</small></p>
+                            <h5 class="card-title">Niharon Class Manager</h5>
+                            <p class="card-text">Class Manager is a free service for educational institutes. Class Manager makes it easy to arrange class schedules. Sign in with your Google account, create rooms and arrange your classes. You can add your mates and teachers to the room. You can also add alarms and the app will notify you.</p>
+                            <p class="card-text"><small class="text-muted">Available on play store</small></p>
                           </div>
                         </div>
                   </div>
@@ -138,34 +138,14 @@
                       <div class="card mb-3">
                           <img src="/Assets/classmanager.jpg" class="card-img-top" alt="Project Two">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Niharon Shop Manager</h5>
+                            <p class="card-text">It will be
+                              a shop management app. This project might be helpful for the
+                              small and new businesses.</p>
+                            <p class="card-text"><small class="text-muted">Coming soon</small></p>
                           </div>
                         </div>
                   </div>
-
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="card mb-3">
-                        <img src="./Assets/classmanager.jpg" class="card-img-top" alt="Project One">
-                        <div class="card-body">
-                          <h5 class="card-title">Class Manager</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Java-Xml</small></p>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="card mb-3">
-                        <img src="/Assets/classmanager.jpg" class="card-img-top" alt="Project Two">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                </div>
 
             </div>
         </section>
@@ -186,6 +166,15 @@
           
           </section>
           <!-- End Contact section -->
+
+          <script>
+            const navLinks = document.querySelectorAll('.nav-item')
+            const menuToggle = document.getElementById('navbarSupportedContent')
+            const bsCollapse = new bootstrap.Collapse(menuToggle)
+            navLinks.forEach((l) => {
+                l.addEventListener('click', () => { bsCollapse.toggle() })
+            })
+          </script>
 
     </body>
 </html>
