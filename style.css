@@ -86,8 +86,8 @@ section p{
 }
 
 #hero img{
-    max-width: 100% !important;
-    width: 100%;
+    max-width: 130% !important;
+    width: 130%;
 }
 
 #hero h1{
@@ -154,3 +154,11 @@ section p{
     text-align: center;
     color: white;
   }
+
+
+@media only screen and (max-width: 600px) {
+    #hero img{
+        max-width: 100% !important;
+        width: 100%;
+    }
+}
