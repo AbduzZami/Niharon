@@ -161,4 +161,28 @@ section p{
         max-width: 100% !important;
         width: 100%;
     }
+
+    #about-us{
+        margin-top: -40px;
+    }
+
+    #about-us img{
+        padding: 30px;
+    }
+
+    #projects{
+        margin-top: 100px;
+    }
+
+    #hero .img-col{
+        margin-top: 0px;
+    }
+
+    #hero h1{
+        margin-top: 60px;
+    }
+
+    #projects .card{
+        min-height: 0px;
+    }
 }
